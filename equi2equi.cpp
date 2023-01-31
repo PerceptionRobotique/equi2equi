@@ -5,7 +5,7 @@
 
   ./equi2equi ../media/ 0 9 1 ../media/poses.txt 1
 or
-
+  ./equi2equi ../media/ 0 9 1 ../media/poses.txt 0 ../media/depthmaps/
 
  \param imagesDir directory where equirectangular images to read (with 6 digits before the extension) are and where the output equirectangular images will be written (with characters 'e_' before the 6 digits)
  \param iFirst the number of the first image to transform
